@@ -11,3 +11,8 @@
 - 특정 조건이 충족되었을 때 트랜잭션을 전송하는 봇
 - API Endpoint 활용은 main_public.py와 동일함
 - Web3 Provider URI는 본인이 트랜잭션을 보내고 싶은 체인의 RPC Node로 세팅, Transaction에서 역시 해당 체인의 Chain ID 사용
+
+## main_web3_no_api_public.py
+- routescan 무료 API의 경우 하루 1만 건으로 호출이 제한되어 있음
+- API를 사용하지 않고 web3 라이브러리를 통해 필요한 값 추출
+- 기능은 main_web3_public과 거의 동일
